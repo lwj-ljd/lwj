@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>李文菊 - 个人主页</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- 导航栏 -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <div class="navbar-logo">李文菊</div>
+      <div class="navbar-links">
+        <a href="#about">关于我</a>
+        <a href="#info">个人信息</a>
+        <a href="#education">教育经历</a>
+        <a href="#skills">专业技能</a>
+        <a href="#travels">旅游风景</a>
+        <a href="#hobbies">兴趣爱好</a>
+        <a href="#essays">日常随笔</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 头部区域 -->
+  <header class="header">
+    <div class="avatar">
+      <img src="风景/9296031b9a8c6761e0ed3b38869fcb6f.jpg" alt="李文菊">
+    </div>
+    <h1>李文菊</h1>
+    <p>数据科学与大数据技术专业 · 大三学生</p>
+    <p class="tagline">用数据探索世界，用代码创造价值</p>
+  </header>
+
+  <!-- 主内容区域 -->
+  <main class="main-content">
+    <!-- 关于我 -->
+    <section id="about" class="section">
+      <h2 class="section-title">关于我</h2>
+      <div class="about-content" id="about-content">
+        <p>大家好，我是李文菊，一个来自云南红河的i人女孩。目前就读于昆明学院数据科学与大数据技术专业，是一名大三学生。</p>
+        <p>作为一个i人，我喜欢安静地思考和学习，享受在数据的世界中探索和发现。虽然我比较内向，但我对生活有着浓厚的热情。</p>
+        <p>我的家乡云南红河是一个美丽的地方，有着壮丽的自然风光和丰富的民族文化。这里的山山水水培养了我热爱生活、善于观察的性格。我相信，每一个数据背后都有一个故事，而我的使命就是去发现这些故事。</p>
+        <p>在大学期间，我努力学习专业知识，积极参与各类实践项目。从数据结构到机器学习，从数据库原理到大数据技术，每一门课程都让我对这个领域有了更深的理解。我相信，通过不断学习和实践，我能用数据的力量为社会做出贡献。</p>
+        <p>欢迎来到我的个人主页，希望能和你一起交流学习！</p>
+      </div>
+    </section>
+
+    <!-- 个人信息 -->
+    <section id="info" class="section">
+      <h2 class="section-title">个人信息</h2>
+      <div class="info-grid">
+        <div class="info-card">
+          <i class="fas fa-user"></i>
+          <div class="label">姓名</div>
+          <div class="value" id="info-name">李文菊</div>
+        </div>
+        <div class="info-card">
+          <i class="fas fa-calendar"></i>
+          <div class="label">年龄</div>
+          <div class="value" id="info-age">21</div>
+        </div>
+        <div class="info-card">
+          <i class="fas fa-map-marker-alt"></i>
+          <div class="label">籍贯</div>
+          <div class="value" id="info-location">云南红河</div>
+        </div>
+        <div class="info-card">
+          <i class="fas fa-university"></i>
+          <div class="label">学校</div>
+          <div class="value" id="info-school">昆明学院</div>
+        </div>
+        <div class="info-card">
+          <i class="fas fa-book-open"></i>
+          <div class="label">专业</div>
+          <div class="value" id="info-major">数据科学与大数据技术</div>
+        </div>
+        <div class="info-card">
+          <i class="fas fa-phone"></i>
+          <div class="label">联系电话</div>
+          <div class="value" id="info-phone">15094104491</div>
+        </div>
+        <div class="info-card">
+          <i class="fas fa-graduation-cap"></i>
+          <div class="label">年级</div>
+          <div class="value" id="info-grade">大三</div>
+        </div>
+        <div class="info-card">
+          <i class="fas fa-heart"></i>
+          <div class="label">性格类型</div>
+          <div class="value" id="info-personality">i人</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 教育经历 -->
+    <section id="education" class="section">
+      <h2 class="section-title">教育经历</h2>
+      <div class="education-timeline" id="education-list">
+        <div class="education-item">
+          <div class="education-header">
+            <div class="education-title">
+              <a href="https://www.kmu.edu.cn" target="_blank" class="school-link">昆明学院</a>
+            </div>
+            <div class="education-year">2023 - 2027</div>
+          </div>
+          <div class="education-meta">本科 · 数据科学与大数据技术</div>
+          <div class="education-desc">主修课程包括：数据结构、数据库原理、机器学习、数据挖掘、大数据技术、Python编程、多元统计学等。在校期间积极参与各类学术活动和竞赛。</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 专业技能 -->
+    <section id="skills" class="section">
+      <h2 class="section-title">专业技能</h2>
+      <div class="skills-grid" id="skills-list">
+        <div class="skill-card">
+          <div class="skill-header">
+            <div class="skill-name">Python</div>
+            <div class="skill-level">熟练</div>
+          </div>
+          <div class="skill-desc">掌握Python基础语法，熟悉Pandas、NumPy、Matplotlib等数据分析库，能够独立完成数据处理和分析任务。</div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-header">
+            <div class="skill-name">SQL</div>
+            <div class="skill-level">熟练</div>
+          </div>
+          <div class="skill-desc">熟练使用MySQL、SQLite数据库，能够编写复杂的SQL查询语句，熟悉数据库设计和优化。</div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-header">
+            <div class="skill-name">数据可视化</div>
+            <div class="skill-level">良好</div>
+          </div>
+          <div class="skill-desc">掌握Tableau、PowerBI等可视化工具，能够制作专业的数据报表和交互式图表。</div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-header">
+            <div class="skill-name">机器学习</div>
+            <div class="skill-level">良好</div>
+          </div>
+          <div class="skill-desc">了解常用机器学习算法，能够运用Scikit-learn进行模型训练和评估。</div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-header">
+            <div class="skill-name">Java</div>
+            <div class="skill-level">基础</div>
+          </div>
+          <div class="skill-desc">掌握Java基础语法，了解面向对象编程思想，能够开发简单的Java应用程序。</div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-header">
+            <div class="skill-name">Web开发</div>
+            <div class="skill-level">基础</div>
+          </div>
+          <div class="skill-desc">了解HTML、CSS、JavaScript基础，能够开发简单的网页应用，熟悉Flask框架。</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 旅游风景 -->
+    <section id="travels" class="section">
+      <h2 class="section-title">旅游风景</h2>
+      <div id="travels-list">
+        <div class="city-section">
+          <h3 class="city-title">建水</h3>
+          <div class="city-images">
+            <img src="风景\724189768a9d333e4f1fbbc2a312c86f.jpg" alt="建水风景1">
+            <img src="风景\96c0134a94dba85a9f428d855168f915.jpg" alt="建水风景2">
+            <img src="风景\a8b9a00c3e05631eb9178c05ef2198ba.jpg" alt="建水风景3">
+          </div>
+          <p class="city-desc">建水古城位于云南省红河州，是一座有着千年历史的文化名城。这里保存着众多古建筑，如建水文庙、朱家花园等，散发着浓厚的历史韵味。建水的烧豆腐更是闻名遐迩，让人回味无穷。</p>
+        </div>
+        <div class="city-section">
+          <h3 class="city-title">厦门</h3>
+          <div class="city-images">
+            <img src="风景\734a26d28e8ba4ce96df98d0080d6d70.jpg" alt="厦门风景1">
+            <img src="风景\944455b63428789804dae7947af32c93.jpg" alt="厦门风景2">
+            <img src="风景\7a6dc6bbfe37f6f1cffd63e15fbd5fd8.jpg" alt="厦门风景3">
+          </div>
+          <p class="city-desc">厦门是一座美丽的海滨城市，拥有鼓浪屿、厦门大学、环岛路等著名景点。这里气候宜人，风景秀丽，充满了文艺气息。漫步在海边，感受海风拂面，让人忘却一切烦恼。</p>
+        </div>
+        <div class="city-section">
+          <h3 class="city-title">弥勒</h3>
+          <div class="city-images">
+            <img src="风景\13866759c71f15808ec13a05396424bd.jpg" alt="弥勒风景1">
+            <img src="风景\8e2da969ac0b53ed0379a27b71091d85.jpg" alt="弥勒风景2">
+            <img src="风景\03a22ea670aece75b88b85041e4f4d82.jpg" alt="弥勒风景3">
+          </div>
+          <p class="city-desc">弥勒是云南省红河州下辖的县级市，以其独特的自然风光和人文景观闻名。这里有壮观的弥勒大佛、美丽的湖泉生态园，还有香甜的弥勒葡萄。是一个休闲度假的好去处。</p>
+        </div>
+        <div class="city-section">
+          <h3 class="city-title">贵阳</h3>
+          <div class="city-images">
+            <img src="风景\c70f1f5087c411f2ae5e68e1c2bf1aeb.jpg" alt="贵阳风景1">
+            <img src="风景\1ceb7e71e664f2adaa17cd65de8d710e.jpg" alt="贵阳风景2">
+            <img src="风景\9436256b34da13422342bf9aceff883a.jpg" alt="贵阳风景3">
+          </div>
+          <p class="city-desc">贵阳是贵州省的省会，被誉为'中国避暑之都'。这里夏季凉爽宜人，周边有黄果树瀑布、青岩古镇等著名景点。贵阳的美食也让人垂涎欲滴，丝娃娃、酸汤鱼都是必尝的美味。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 兴趣爱好 -->
+    <section id="hobbies" class="section">
+      <h2 class="section-title">兴趣爱好</h2>
+      <p style="text-align: right; margin-bottom: 20px;">
+        <a href="hobbies.html" target="_blank" class="more-link">查看详情 →</a>
+      </p>
+      <div class="hobbies-grid" id="hobbies-list">
+        <div class="hobby-card">
+          <i class="fas fa-book-open"></i>
+          <div class="hobby-name">阅读</div>
+          <div class="hobby-desc">喜欢阅读各类书籍，尤其偏爱言情小说和科普读物</div>
+        </div>
+        <div class="hobby-card">
+          <i class="fas fa-camera"></i>
+          <div class="hobby-name">摄影</div>
+          <div class="hobby-desc">热爱自然风光摄影，喜欢记录生活中的美好瞬间</div>
+        </div>
+        <div class="hobby-card">
+          <i class="fas fa-map"></i>
+          <div class="hobby-name">旅行</div>
+          <div class="hobby-desc">喜欢探索云南的山水风光，已去过多个云南著名景点</div>
+        </div>
+        <div class="hobby-card">
+          <i class="fas fa-music"></i>
+          <div class="hobby-name">音乐</div>
+          <div class="hobby-desc">喜欢听各种类型的音乐，尤其偏爱民谣和流行音乐，闲暇时会弹吉他</div>
+        </div>
+        <div class="hobby-card">
+          <i class="fas fa-microphone"></i>
+          <div class="hobby-name">唱歌</div>
+          <div class="hobby-desc">热爱唱歌，经常在KTV和朋友一起嗨唱，也喜欢在宿舍哼唱喜欢的歌曲</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 日常随笔 -->
+    <section id="essays" class="section">
+      <h2 class="section-title">日常随笔</h2>
+      <div class="essays-list" id="essays-list">
+        <div class="essay-item">
+          <div class="essay-header">
+            <h3 class="essay-title">稳步前行</h3>
+          </div>
+          <p class="essay-content">沉下心做好眼前琐事，不急不躁，慢慢积攒属于自己的力量。</p>
+        </div>
+        <div class="essay-item">
+          <div class="essay-header">
+            <h3 class="essay-title">黄昏小憩</h3>
+          </div>
+          <p class="essay-content">结束一天的学习，借着晚风放空，卸下心里的疲惫。</p>
+        </div>
+        <div class="essay-item">
+          <div class="essay-header">
+            <h3 class="essay-title">拒绝内耗</h3>
+          </div>
+          <p class="essay-content">不再纠结无关的情绪，把精力放在自我提升上面。</p>
+        </div>
+        <div class="essay-item">
+          <div class="essay-header">
+            <h3 class="essay-title">细碎日常</h3>
+          </div>
+          <p class="essay-content">普通的每一天，认真度过，便是最好的生活。</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 页脚 -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>关于我</h3>
+          <p>我是李文菊，一名热爱数据科学的大三学生。我相信数据的力量，致力于用数据分析解决实际问题。</p>
+        </div>
+        <div class="footer-section">
+          <h3>快速链接</h3>
+          <ul>
+            <li><a href="#about">关于我</a></li>
+            <li><a href="#education">教育经历</a></li>
+            <li><a href="#skills">专业技能</a></li>
+            <li><a href="#projects">项目经验</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>联系方式</h3>
+          <div class="footer-contact">
+            <i class="fas fa-phone"></i>
+            <span>15094104491</span>
+          </div>
+          <div class="footer-contact">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>云南省昆明市</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 李文菊 · 个人主页 · 用数据探索世界</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // 从JSON文件加载数据
+    fetch('data.json')
+      .then(response => response.json())
+      .then(data => {
+        // 更新个人信息
+        document.getElementById('info-name').textContent = data.personal.name;
+        document.getElementById('info-age').textContent = data.personal.age;
+        document.getElementById('info-location').textContent = data.personal.location;
+        document.getElementById('info-school').textContent = data.personal.school;
+        document.getElementById('info-major').textContent = data.personal.major;
+        document.getElementById('info-phone').textContent = data.personal.phone;
+        document.getElementById('info-grade').textContent = data.personal.grade;
+        document.getElementById('info-personality').textContent = data.personal.personality;
+
+        // 更新关于我内容
+        const aboutContent = document.getElementById('about-content');
+        aboutContent.innerHTML = data.about.split('\\n').map(p => `<p>${p}</p>`).join('');
+
+        // 动态生成教育经历
+        const educationList = document.getElementById('education-list');
+        educationList.innerHTML = data.education.map(item => `
+          <div class="education-item">
+            <div class="education-header">
+              <div class="education-title">${item.school}</div>
+              <div class="education-year">${item.startYear} - ${item.endYear}</div>
+            </div>
+            <div class="education-meta">${item.degree} · ${item.major}</div>
+            <div class="education-desc">${item.description}</div>
+          </div>
+        `).join('');
+
+        // 动态生成技能
+        const skillsList = document.getElementById('skills-list');
+        skillsList.innerHTML = data.skills.map(skill => `
+          <div class="skill-card">
+            <div class="skill-header">
+              <div class="skill-name">${skill.name}</div>
+              <div class="skill-level">${skill.level}</div>
+            </div>
+            <div class="skill-desc">${skill.description}</div>
+          </div>
+        `).join('');
+
+        // 动态生成兴趣爱好
+        const hobbiesList = document.getElementById('hobbies-list');
+        hobbiesList.innerHTML = data.hobbies.map(hobby => `
+          <div class="hobby-card">
+            <i class="fas fa-${getHobbyIcon(hobby.name)}"></i>
+            <div class="hobby-name">${hobby.name}</div>
+            <div class="hobby-desc">${hobby.description}</div>
+          </div>
+        `).join('');
+
+        // 动态生成日常随笔
+        const essaysList = document.getElementById('essays-list');
+        essaysList.innerHTML = data.essays.map(essay => `
+          <div class="essay-item">
+            <div class="essay-header">
+              <h3 class="essay-title">${essay.title}</h3>
+              <span class="essay-date">${essay.date}</span>
+            </div>
+            <p class="essay-content">${essay.content}</p>
+          </div>
+        `).join('');
+      })
+      .catch(error => console.error('加载数据失败:', error));
+
+    // 获取兴趣爱好图标
+    function getHobbyIcon(name) {
+      const icons = {
+        '阅读': 'book-open',
+        '摄影': 'camera',
+        '旅行': 'map',
+        '音乐': 'music',
+        '唱歌': 'microphone'
+      };
+      return icons[name] || 'star';
+    }
+  </script>
+</body>
+</html>

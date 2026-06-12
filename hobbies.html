@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>李文菊 - 兴趣爱好</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      background: linear-gradient(135deg, #e8f4f8 0%, #f0f9ff 50%, #e6f7ff 100%);
+      min-height: 100vh;
+    }
+
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
+      z-index: 1000;
+      padding: 15px 0;
+    }
+
+    .navbar-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .navbar-logo {
+      font-size: 24px;
+      font-weight: 700;
+      background: linear-gradient(135deg, #4ECDC4 0%, #44A08D 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .navbar-links a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+      padding: 8px 16px;
+      border-radius: 20px;
+      transition: all 0.3s ease;
+    }
+
+    .navbar-links a:hover {
+      background: linear-gradient(135deg, #4ECDC4 0%, #44A08D 100%);
+      color: white;
+    }
+
+    .main-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 120px 30px 50px;
+    }
+
+    .section {
+      background: white;
+      border-radius: 20px;
+      padding: 40px;
+      margin-bottom: 30px;
+      box-shadow: 0 5px 30px rgba(0, 0, 0, 0.05);
+    }
+
+    .section-title {
+      font-size: 28px;
+      font-weight: 700;
+      color: #2C3E50;
+      margin-bottom: 30px;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .section-title::before {
+      content: '';
+      width: 6px;
+      height: 30px;
+      background: linear-gradient(135deg, #4ECDC4 0%, #44A08D 100%);
+      border-radius: 3px;
+    }
+
+    .hobby-detail {
+      display: flex;
+      gap: 30px;
+      margin-bottom: 40px;
+      padding: 25px;
+      background: linear-gradient(135deg, rgba(78, 205, 196, 0.05) 0%, rgba(68, 160, 141, 0.03) 100%);
+      border-radius: 15px;
+      border-left: 4px solid #4ECDC4;
+    }
+
+    .hobby-icon {
+      width: 80px;
+      height: 80px;
+      background: linear-gradient(135deg, #4ECDC4 0%, #44A08D 100%);
+      border-radius: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .hobby-icon i {
+      font-size: 36px;
+      color: white;
+    }
+
+    .hobby-info {
+      flex: 1;
+    }
+
+    .hobby-info h3 {
+      font-size: 22px;
+      font-weight: 600;
+      color: #2C3E50;
+      margin-bottom: 10px;
+    }
+
+    .hobby-info p {
+      font-size: 15px;
+      color: #5D6D7E;
+      line-height: 1.8;
+      margin-bottom: 15px;
+    }
+
+    .hobby-highlights {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .highlight-tag {
+      font-size: 13px;
+      color: #4ECDC4;
+      background: rgba(78, 205, 196, 0.1);
+      padding: 6px 14px;
+      border-radius: 15px;
+    }
+
+    .footer {
+      background: linear-gradient(135deg, #2C3E50 0%, #34495E 100%);
+      color: white;
+      padding: 40px 30px;
+      margin-top: 50px;
+      text-align: center;
+    }
+
+    .footer a {
+      color: #4ECDC4;
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      .hobby-detail {
+        flex-direction: column;
+      }
+
+      .navbar-links a {
+        font-size: 14px;
+        padding: 6px 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-container">
+      <div class="navbar-logo">兴趣爱好</div>
+      <div class="navbar-links">
+        <a href="index.html">返回主页</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="main-content">
+    <section class="section">
+      <h2 class="section-title">我的兴趣爱好</h2>
+      
+      <div class="hobby-detail">
+        <div class="hobby-icon">
+          <i class="fas fa-book-open"></i>
+        </div>
+        <div class="hobby-info">
+          <h3>阅读</h3>
+          <p>阅读是我最喜欢的放松方式。无论是在安静的图书馆，还是在温馨的宿舍，一本好书总能让我沉浸其中。我特别喜欢言情小说中细腻的情感描写，以及科普读物中展现的奇妙世界。每一本书都像是一扇窗户，带我看到不同的人生和风景。</p>
+          <div class="hobby-highlights">
+            <span class="highlight-tag">言情小说</span>
+            <span class="highlight-tag">科普读物</span>
+            <span class="highlight-tag">科幻小说</span>
+            <span class="highlight-tag">散文随笔</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hobby-detail">
+        <div class="hobby-icon">
+          <i class="fas fa-camera"></i>
+        </div>
+        <div class="hobby-info">
+          <h3>摄影</h3>
+          <p>摄影让我学会用镜头去发现生活中的美。无论是壮丽的自然风光，还是平凡的日常瞬间，都值得被记录下来。我喜欢在旅行时带着相机，捕捉那些稍纵即逝的美好时刻。每一张照片都是我对生活的热爱和感悟。</p>
+          <div class="hobby-highlights">
+            <span class="highlight-tag">自然风光</span>
+            <span class="highlight-tag">人像摄影</span>
+            <span class="highlight-tag">旅行随拍</span>
+            <span class="highlight-tag">手机摄影</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hobby-detail">
+        <div class="hobby-icon">
+          <i class="fas fa-map"></i>
+        </div>
+        <div class="hobby-info">
+          <h3>旅行</h3>
+          <p>世界那么大，我想去看看。作为一个云南人，我深深爱着这片土地的每一寸山水。从丽江古城到大理洱海，从元阳梯田到昆明滇池，每一次旅行都是一次心灵的洗礼。旅行不仅让我看到了美丽的风景，更让我收获了成长和感悟。</p>
+          <div class="hobby-highlights">
+            <span class="highlight-tag">云南风光</span>
+            <span class="highlight-tag">人文古迹</span>
+            <span class="highlight-tag">自然探索</span>
+            <span class="highlight-tag">美食之旅</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hobby-detail">
+        <div class="hobby-icon">
+          <i class="fas fa-music"></i>
+        </div>
+        <div class="hobby-info">
+          <h3>音乐</h3>
+          <p>音乐是我生活中不可或缺的一部分。无论是学习时的背景音，还是闲暇时的放松时刻，音乐总能带给我力量和慰藉。我特别喜欢民谣的质朴和流行音乐的活力，偶尔也会弹弹吉他自娱自乐。音乐让平凡的日子变得更加美好。</p>
+          <div class="hobby-highlights">
+            <span class="highlight-tag">民谣</span>
+            <span class="highlight-tag">流行音乐</span>
+            <span class="highlight-tag">吉他弹唱</span>
+            <span class="highlight-tag">轻音乐</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hobby-detail">
+        <div class="hobby-icon">
+          <i class="fas fa-microphone"></i>
+        </div>
+        <div class="hobby-info">
+          <h3>唱歌</h3>
+          <p>唱歌是我释放压力、表达情感的方式。无论是在KTV和朋友们一起嗨唱，还是在宿舍里轻声哼唱，都让我感到无比快乐。唱歌不仅带给我自信，也让我学会了用声音传递情感。</p>
+          <div class="hobby-highlights">
+            <span class="highlight-tag">KTV</span>
+            <span class="highlight-tag">流行歌曲</span>
+            <span class="highlight-tag">校园歌手</span>
+            <span class="highlight-tag">合唱</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>点击 <a href="index.html">这里</a> 返回主页</p>
+  </footer>
+</body>
+</html>
